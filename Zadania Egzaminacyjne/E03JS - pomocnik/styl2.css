@@ -1,0 +1,67 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: Linen;
+    color: #222;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#banner1{
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 100px;
+}
+#banner2{
+ background-color: black;
+ color: white;
+ width: 50%;
+ height: 100px;
+ position: absolute;
+    top: 18px;
+    right: 75px;
+ text-align: center;
+
+}
+
+#main {
+    padding: 20px;
+}
+
+#stopka {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+table {
+    margin: 40px;
+}
+
+td {
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    border-bottom: 1px solid white;
+}
+
+
+
+
+

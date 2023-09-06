@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>malarz</title>
+    <link rel="stylesheet" href="styl_1.css">
+</head>
+<body>
+<section id="baner">
+    <h1>Malowanie pokoi i biur</h1>
+</section>
+<section id="lewy">
+    <h2>Menu</h2>
+    <ul>
+        <li><a href="mieszaniny.html">Mieszamy</a> </li>
+        <li><a href="cena.html">Wyceniamy</a> </li>
+    </ul>
+</section>
+<section id="srodkowy">
+    <h2>Zapotrzebowanie na farbę</h2>
+    Powierzchnia malowania (m<sup>2</sup>):<input id="farba" type="number">
+    <button>Policz</button>
+    <p id="wynik">...</p>
+</section>
+<section id="prawy">
+    <img src="obraz2.png" alt="Próbki farb">
+</section>
+<section id="stopka">
+    <H3>MALARZ</H3>
+    <p>Stronę opracował: Krystian Woźnica</p>
+</section>
+<script>
+    const farba = document.querySelector('#farba')
+    const wynik = document.querySelector('#wynik')
+    const btn = document.querySelector('button')
+
+    var puszka = 1
+
+
+    btn.addEventListener('click', function (){
+        var a = Math.ceil(farba.value/4)
+        wynik.innerHTML = `Liczba potrzebnych puszek: ${a}`
+    })
+
+</script>
+</body>
+</html>

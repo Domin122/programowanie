@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Obiekt osoba</title>
+</head>
+<body>
+<script>
+  // 3.44
+  let osoba = {
+    nazwisko: "Kowalski",
+    imie: "Bożydar",
+    zawod: "Programista",
+    wiek: 19,
+    pokaz: function (){
+      document.write(`<br><br>To jest ${this.imie} ${this.nazwisko}`);
+    },
+    zawod1: function (){
+      document.write(`<br>Jego zawod to ${this.zawod}`);
+    },
+    wiek1: function() {
+      document.write(`<br> Ma on  ${this.wiek} lat`);
+    }
+  };
+  osoba.pokaz();
+  osoba.zawod1();
+  osoba.wiek1();
+</script>
+</body>
+</html>

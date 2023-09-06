@@ -1,0 +1,39 @@
+#menu {
+    background-color: blanchedalmond;
+    position: absolute;
+    top: 5px;
+    left: 16px;
+    width: 400px;
+}
+#naglowek {
+    background-color: darkred;
+    position: absolute;
+    text-align: center;
+    top: 5px;
+    right: 20px;
+    width: 1200px;
+    height: 160px;
+    color: orange;
+}
+#tekst {
+    background-color: whitesmoke;
+    width: 79%;
+    height: 80%;
+    margin: 8px;
+    position: absolute;
+    top: 150px;
+    float: left;
+}
+#zdjecie {
+    position: absolute;
+    right: 20px;
+    top: 158px;
+}
+#stopka {
+    background-color: gray;
+    position: absolute;
+    bottom: 10px;
+    left: 16px;
+    width: 1483px;
+    text-align: center;
+}

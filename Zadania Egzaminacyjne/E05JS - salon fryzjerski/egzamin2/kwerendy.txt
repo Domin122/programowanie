@@ -1,0 +1,4 @@
+SELECT `imie`,`nazwisko` FROM kadra WHERE(stanowisko = 'Fryzjer')
+SELECT COUNT(*) FROM uslugi WHERE rodzaj = 2;
+CREATE USER ' fryzjer' IDENTIFIED BY 'Fryz12';
+GRANT SELECT, INSERT, UPDATE ON kadra TO 'fryzjer';

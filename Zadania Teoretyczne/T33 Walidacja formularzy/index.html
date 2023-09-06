@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walidacja formularzy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Walidacja formularzy</h1>
+    <h2>Autor: Dominik Gabrysz 2ir_2</h2>
+</header>
+<section>
+    <p>Zapoznaj się z rozdziałem dotyczącym walidacji formularzy z podręcznika (podręcznik dostępny w materiałach do kursu).
+        Należy wykonać projekt, który zawiera formularz zmiany hasła.
+        <br> Formularz powinien zawierać:
+          <br>  -nazwę użytkownika (dowolne znaki, ale nie może być pusty),
+           <br> -adres e-mail (nie może być pusty i zawiera prawidłowy adres e-mail z domeną zspglogow.pl),
+           <br> -dwa pola do wprowadzenia hasła (minimum 8 znaków, litery małe i duże, cyfry i znaki specjalne).
+           <br> -przycisk z napisem "Zmień hasło".
+        <br>Skrypt w przypadku prawidłowo wypełnionego formularza wyświetla dane na stronie (wiadomo, że to bez sensu, ale chodzi o łatwe sprawdzenie, czy wszystko działa prawidłowo).
+        <br>Na stronie powinny być również widoczne:
+            <br>-nazwa zadania,
+           <br> -imię nazwisko i klasa autora,
+            <br>-treść zadania.
+    </p>
+    <br>
+    <form enctype="text/plain" id="form">
+        <p id="ak1">Dane osobowe:</p>
+        <b>Nazwa użytkownika: </b><input class="pole" name="nick" value="" size="40"><br>
+        <b>E-mail: </b><input class="pole" name="mail" value="" size="40"><br>
+        <b>Hasło: </b><input class="pole" name="haslo" value="" size="40"><br>
+        <b>Powtórz hasło: </b><input class="pole" name="haslo2" value="" size="40"><br>
+    </form>
+        <br>
+    <button>Zmień hasło</button>
+    <p id="wynik">.....</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

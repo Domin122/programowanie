@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pogotowie Komputerowe</title>
+    <link rel="stylesheet" href="styl.css">
+    <link rel="icon" href="materialy6/favicon.png">
+</head>
+<body>
+<div id="kontener">
+<div id="baner">
+    <img src="materialy6/animacja.gif" alt="animacja">
+</div>
+<div id="menu">
+    <a href="index.html">O nas</a>
+    <a href="kontakt.html">Kontakt</a>
+</div>
+<div  id="blok_glowy">
+    <div class="content">
+
+    </div>
+    <div class="content">
+        <h3>Formularz Kontaktowy</h3>
+        <form id="form">
+            <label for="imie">Imię: </label> <input type="text" id="imie"><br>
+            <label for="nazwisko">Nazwisko: </label> <input type="text" id="nazwisko"><br>
+            <label for="email">E-mail: </label> <input type="text" id="email"><br>
+            <label for="usluga">Usługa: </label>
+            <select id="usluga">
+                <option >Naprawa komputera</option>
+                <option >Odzyskiwanie danych</option>
+                <option >Problemy z oprogramowaniem</option>
+                <option >Konfiguracja sieci LAN</option>
+                <option >Inne</option>
+            </select><br>
+            <input type="checkbox" checked id="kopia"><label for="kopia">Wyślij kopię wiadomości</label><br>
+            <button id="reset" type="reset">Resetuj</button>
+            <button id="prześlij">Prześlij</button>
+        </form><br><br>
+        <p id="wynik"></p>
+    </div>
+    <div class="content">
+
+    </div>
+</div>
+<div id="stopka">
+    <p>Autor: Dominik Gabrysz</p>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

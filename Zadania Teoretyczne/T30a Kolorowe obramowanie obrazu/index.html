@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kolorowe obarmowanie obrazu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<img  id="img" src="zdj.jpg" width="600" height="600">
+<form>
+  <label for="borderColor">Kolor:</label>
+  <input type="color" id="borderColor" name="borderColor">
+  <label for="borderRange">Szerokość:</label>
+  <input type="range" id="borderRange" name="borderRange" min="0" max="10" step="1" value="2">
+  <output id="borderWidthDisplay"></output>px
+  <button type="button" onclick="changeBorderColor()">Zastosuj</button>
+</form>
+<script src="script.js"></script>
+</body>
+</html>

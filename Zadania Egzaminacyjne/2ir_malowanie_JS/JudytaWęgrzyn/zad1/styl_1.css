@@ -1,0 +1,52 @@
+*{
+    font-family: Cambria;
+}
+
+#ban, #foot{
+    background-color: #829EB9;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#foot{
+   clear: both;
+}
+
+#left, #right {
+    background-color: #B3C6D9;
+    height: 400px;
+    width: 25%;
+    padding-top: 100px;
+    float: left;
+}
+
+#middle{
+    background-color: #E0E9F1;
+    height: 400px;
+    width: 50%;
+    text-align: center;
+    padding-top: 100px;
+    float: left;
+}
+
+table{
+    width: 80%;
+    margin: auto;
+    border: DimGray 1px solid;
+    border-collapse: collapse;
+}
+
+td, tr,th{
+    border: DimGray 1px solid;
+}
+
+td:hover, th:hover{
+    background-color: SteelBLue;
+    color: white;
+}
+
+img{
+    width:100%;
+    border-radius: 20px;
+}

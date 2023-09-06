@@ -1,0 +1,55 @@
+body{
+    font-family: Cambria;
+}
+
+.selector{
+    font-family: Cambria;
+}
+
+#baner{
+    background-color: #829EB9;
+    color: white;
+    text-align: center;
+    margin: 10px;
+
+
+}
+
+#prawy{
+    background-color: #B3C6D9;
+height: 400px;
+    width: 25%;
+    margin-top: 100px;
+}
+
+#srodkowy{
+    background-color: #E0E9F1;
+    height: 400px;
+    width: 50%;
+    text-align: center;
+    margin-top: 100px;
+;
+}
+
+#lewy{
+    background-color: #B3C6D9;
+    height: 400px;
+    width: 25%;
+    margin-top: 100px;
+}
+
+
+#stopka{
+    background-color: #829EB9;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+.td{
+    outline: dimgray;
+    outline: 1px;
+    outline-color: dimgray;
+}
+
+
+

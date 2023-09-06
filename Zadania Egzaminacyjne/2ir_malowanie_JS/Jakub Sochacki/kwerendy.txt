@@ -1,0 +1,1 @@
+SELECT cena, pojemnosc FROM farby WHERE kolor = "czerwony";

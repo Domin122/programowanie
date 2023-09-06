@@ -1,0 +1,31 @@
+body{
+    background-color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 50px;
+}
+footer{
+    background-color: brown;
+    color: bisque;
+    text-align: center;
+}
+section {
+    border: 1px solid brown;
+    margin: 20px;
+    padding: 20px;
+}
+
+#minus {
+    color: #f0000c;
+}
+
+#lower {
+    color: green;
+}
+
+#higher {
+    color: red;
+}
+
+#same {
+    color: blue;
+}

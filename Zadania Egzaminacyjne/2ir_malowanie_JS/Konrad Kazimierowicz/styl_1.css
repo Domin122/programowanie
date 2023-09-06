@@ -1,0 +1,50 @@
+* {
+    font-family: Cambria;
+}
+
+#baner, footer {
+    background-color: #829EB9;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+#left, #right {
+    background-color: #B3C6D9;
+    height: 400px;
+    width: 25%;
+    padding-top: 100px;
+    float: left;
+}
+
+#middle {
+    float: left;
+    background-color: #E0E9F1;
+    height: 400px;
+    width: 50%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+th, td {
+    border: solid 1px DimGray;
+    border-collapse: collapse;
+
+}
+
+th:hover, td:hover {
+    background-color: SteelBlue;
+    color: white;
+}
+
+table {
+    border: solid 1px DimGray;
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}

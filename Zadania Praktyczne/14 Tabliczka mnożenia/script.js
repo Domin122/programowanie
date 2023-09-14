@@ -5,8 +5,7 @@ const btn = document.querySelector('button');
 btn.addEventListener('click', function() {
     let a =parseInt(liczba_a.value);
     let wynik_tekst = ``;
-    let liczba = a;
-    wynik_tekst +=`x = ${liczba}<br>`
+    wynik_tekst +=`x = ${a}<br>`
     let mn0 = 0*a;
     wynik_tekst +=`0 x ${a} = ${mn0}<br>`
     let mn1 = 1*a;

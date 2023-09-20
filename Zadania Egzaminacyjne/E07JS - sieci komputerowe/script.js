@@ -1,6 +1,4 @@
-
 let idZamowienia = 0;
-
 
 function zaznaczBraki() {
     const tabela = document.getElementById('tabela');
@@ -33,8 +31,7 @@ function aktualizujIlosc(index) {
     }
 }
 
-
-function zamowienie(nazwaProduktu) {
+function zamowienie(nazwaProduktu, index) {
     idZamowienia++;
     alert(`Zamówienie nr: ${idZamowienia} Produkt: ${nazwaProduktu}`);
 }

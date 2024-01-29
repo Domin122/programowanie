@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Obsługa formularza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+
+  <h2>Autor: Dominik Gabrysz 2ir_2</h2>
+</header>
+<h1>Ustalanie wartości za pomocą suwaka</h1>
+<section>
+  <form  id="form">
+    <input type="range" id="zadowolenie" name="zadowolenie" min="0" max="15">
+    <label for="zadowolenie">Poziom zadowolenia obsługą w skali od 0 do 15</label><br>
+    <input type="date" id="data" name="data">
+    <label for="data">Data wykonania usługi</label><br>
+    <input type="color" id="kolor" name="kolor">
+    <label for="kolor">Ocena kolorem</label>
+    <button>Działaj</button>
+  </form>
+  <p id="wynik"></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

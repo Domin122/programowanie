@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Style w JavaScript</title>
+    <link rel="stylesheet" href="styl6.css">
+</head>
+<body>
+<div id="lewy">
+    <p>Podaj kolor tła</p>
+    <button id="Indigo">Indigo</button>
+    <button id="Steelblue">SteelBlue</button>
+    <button id="Olive">Olive</button>
+    <p>Podaj kolor czcionki</p>
+    <label>
+        <select id="mojkolor" onchange="kolor()">
+            <option id="White">White</option>
+            <option id="Tan">Tan</option>
+            <option id="Bisque">Bisque</option>
+            <option id="Plum">Plum</option>
+        </select>
+    </label>
+    <p>Podaj rozmiar czcionki w procentach</p>
+    <label>
+        <input type="text" name="procent" value="100%">
+    </label>
+    <p>Czy rysunek ma mieć ramkę</p>
+    <label><input type="checkbox" checked name="ramka">Rysuj ramkę</label>
+    <p>Jaki jest typ punktora listy?</p>
+        <label><input type="radio" checked value="Dysk" name="opcje">Dysk</label><br>
+        <label><input type="radio" value="Kwadrat" name="opcje">Kwadrat</label><br>
+        <label><input type="radio" value="Okrąg" name="opcje">okrąg</label>
+
+</div>
+<div id="prawy">
+<img src="gibraltar.jpg" id="zdj" alt="półwysep Gibraltar">
+    <ul id="lista">
+        <li>Element 1</li>
+        <li>Element 2</li>
+        <li>Element 3</li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+</div>
+<div id="stopka">
+<p>Autor:00000000000</p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

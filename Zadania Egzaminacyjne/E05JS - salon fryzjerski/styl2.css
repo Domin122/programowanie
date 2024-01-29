@@ -1,0 +1,65 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+#lewe, #prawe {
+    float: left;
+}
+
+#lewe {
+    width: 70%;
+}
+
+#prawe {
+    width: 30%;
+    background: steelblue;
+    color: white;
+    text-align: center;
+}
+
+#lewe .inside {
+    height: 400px;
+    background: Snow;
+}
+
+#lewy1 {
+    text-align: center;
+}
+
+#lewy2 {
+    font-size: 150%;
+}
+
+#prawy1 {
+    height: 150px;
+}
+
+#prawy2 {
+    height: 350px;
+    text-align: left;
+}
+
+#prawy3 {
+    height: 300px;
+    background: white;
+    color: black;
+}
+
+#stopka{
+    background: steelblue;
+    color: white;
+    clear: both;
+}
+
+h2 {
+    font-size: 250%;
+}
+
+img {
+    padding: 4px;
+}
+
+img:hover {
+    padding: 3px;
+    border: 1px steelblue solid;
+}

@@ -1,0 +1,44 @@
+body{
+    font-family: Georgia, serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0;
+}
+#lewy{
+    background: maroon;
+    color: white;
+    height: 600px;
+    width: 30%;
+}
+#prawy{
+    background-color: maroon;
+    color: white;
+    height: 600px;
+    width: 70%;
+    font-size: 100%;
+}
+
+#stopka{
+    background: dimgray;
+    color: white;
+    width: 100%;
+}
+#zdj{
+    width: 300px;
+    padding: 10px;
+    border: solid white 1px;
+}
+#lista{
+    list-style-type: disc;
+}
+#Indigo{
+    background: indigo;
+}
+#Steelblue{
+    background: steelblue;
+}
+#Olive{
+    background: olive;
+}

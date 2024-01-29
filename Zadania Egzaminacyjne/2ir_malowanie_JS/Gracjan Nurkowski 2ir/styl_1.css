@@ -1,0 +1,52 @@
+*{
+    font-family: Cambria;
+}
+
+#baner,#footer{
+    background: #829EB9;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#left, #right{
+    background: #B3C6D9;
+    height: 400px;
+    width: 25%;
+    padding-top: 100px;
+}
+
+#middle{
+    background: #E0E9F1;
+    height: 400px;
+    width: 50%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#middle, #right, #left {
+    float: left;
+}
+
+#footer{
+    clear: both;
+}
+
+#container{
+    height: 800px;
+    width: 100%;
+}
+
+td, th, tr{
+    border: solid dimgray 1px;
+}
+
+td:hover, th:hover, tr:hover{
+    border-color: steelblue;
+    color: white;
+}

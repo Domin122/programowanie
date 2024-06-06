@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Działania matematyczne</title>
+    <link rel="stylesheet" href="styl.css">
+    <script src="skrypt.js" defer></script>
+</head>
+<body>
+<div id="baner1">
+    <img src="logo.jpg" alt="matematyka">
+</div>
+<div id="baner2">
+    <h1>Pomocnik Matematyczny</h1>
+</div>
+<div id="baner3">
+    <a href="dzialania.html"><h4>Działania</h4></a>
+</div>
+<div id="baner4">
+    <a href="mnozenie.html"><h4>Tabliczka mnożenia</h4></a>
+</div>
+<div id="lewy">
+    <h3>Proste działania</h3>
+    <label>liczba A: <input type="text" id="liczbaA"></label><br>
+    <label>liczba B: <input type="text" id="liczbaB"></label><br>
+    <button onclick="dodawanie()">+</button>
+    <button onclick="odejmowanie()">-</button>
+    <button onclick="mnozenie()">*</button>
+    <button onclick="dzielenie()">/</button>
+    <button onclick="potegowanie()">A^B</button>
+    <p id="wynik">Wynik: </p>
+    <script>
+        function getValues() {
+            const a = parseInt(document.getElementById('liczbaA').value);
+            const b = parseInt(document.getElementById('liczbaB').value);
+            return [a, b];
+        }
+
+        function displayResult(result) {
+            document.getElementById('wynik').innerText = `Wynik: ${result}`;
+        }
+
+        function dodawanie() {
+            const [a, b] = getValues();
+            displayResult(a + b);
+        }
+
+        function odejmowanie() {
+            const [a, b] = getValues();
+            displayResult(a - b);
+        }
+
+        function mnozenie() {
+            const [a, b] = getValues();
+            displayResult(a * b);
+        }
+
+        function dzielenie() {
+            const [a, b] = getValues();
+            displayResult(a / b);
+        }
+
+        function potegowanie() {
+            const [a, b] = getValues();
+            displayResult(Math.pow(a, b));
+        }
+
+    </script>
+</div>
+<div id="prawy">
+    <ul>
+        <li>dodawanie</li>
+        <li>odejmowanie</li>
+        <li>mnożenie</li>
+        <li>dzielenie</li>
+        <li>potęgowanie</li>
+    </ul>
+</div>
+<div id="stopka">
+    <p>Autor: Dominik Gabrysz 3ip_2</p>
+</div>
+</body>
+</html>
